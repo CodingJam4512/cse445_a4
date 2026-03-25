@@ -1,0 +1,33 @@
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace= "http://venus.sod.asu.edu/WSRepository/xml/"
+xmlns:bs ="http://venus.sod.asu.edu/WSRepository/xml/NationalParks.xsd"
+elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<element name="NationalParks">
+		<complexType>
+			<sequence>
+				<element name="NationalPark" minOccurs="1" maxOccurs="unbounded"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="NationalPark">
+		<complexType>
+			<attribute name="CodeR" type="CodeType" use="optional" minOccurs="0" maxOccurs="1">
+			<sequence>
+				<element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+				<element name="Address" minOccurs="1" maxOccurs="1"/>
+			</sequence>
+		</complexType>
+	</element>
+	<element name="Address">
+		<complexType>
+			<attribute name="CodeA" type="xsd:string" use="required" minOccurs="1" maxOccurs="1"/>
+			<sequence>
+				<element name="Number" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="Street" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="City" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="State" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+				<element name="Zip" type="xsd:string" minOccurs="1" maxOccurs="1"/>
+			</sequence>
+		</complexType>
+	
+
