@@ -10,7 +10,7 @@ elementFormDefault="qualified" attributeFormDefault="unqualified">
 	</element>
 	<element name="NationalPark">
 		<complexType>
-			<attribute name="CodeR" type="CodeType" use="optional" minOccurs="0" maxOccurs="1">
+			<attribute name="CodeR" type="CodeType" use="optional" minOccurs="0" maxOccurs="1"/>
 			<sequence>
 				<element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
 				<element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
