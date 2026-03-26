@@ -1,148 +1,148 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NationalParks xmlns="https://codingjam4512.github.io/cse445_a4/NationalParks.xsd">
 	<NationalPark>
-		<CodeR Rating="4.9"/>
 		<Name>Grand Canyon</Name>
 		<Phone>928-638-7496</Phone>
 		<Phone>888-297-2757</Phone>
 		<Phone>886-499-2574</Phone>
 		<Address>
-			<CodeA NearestAirport="FlagStaff"/>
 			<Number>8</Number>
 			<Street>S Entrance Road</Street>
 			<City>Grand Canyon</City>
 			<State>AZ</State>
 			<Zip>86023</Zip>
+			<CodeA NearestAirport="FlagStaff"/>
 		</Address>
+		<CodeR Rating="4.9"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.7"/>
 		<Name>Yellowstone</Name>
 		<Phone>307-344-7381</Phone>
 		<Address>
-			<CodeA NearestAirport="Yellowstone"/>
 			<Number>2</Number>
 			<Street>Officers Row</Street>
 			<City>Yellowstone National Park</City>
 			<State>WY</State>
 			<Zip>82190</Zip>
+			<CodeA NearestAirport="Yellowstone"/>
 		</Address>
+		<CodeR Rating="4.7"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.8"/>
 		<Name>Yosemite</Name>
 		<Phone>209-372-0200</Phone>
 		<Address>
-			<CodeA NearestAirport="Fesno Yosemite"/>
 			<Number>9035</Number>
 			<Street>Village Dr</Street>
 			<City>Yosemite Valley</City>
 			<State>CA</State>
 			<Zip>95389</Zip>
+			<CodeA NearestAirport="Fesno Yosemite"/>
 		</Address>
+		<CodeR Rating="4.7"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.8"/>
 		<Name>Zion</Name>
 		<Phone>435-772-3256</Phone>
 		<Address>
-			<CodeA NearestAirport="St. George"/>
 			<Number>1</Number>
 			<Street>Zion Park Blvd</Street>
 			<City>Springdale</City>
 			<State>UT</State>
 			<Zip>84767</Zip>
+			<CodeA NearestAirport="St. George"/>
 		</Address>
+		<CodeR Rating="4.8"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.7"/>
 		<Name>Rocky Mountain</Name>
 		<Phone>970-586-1206</Phone>
 		<Address>
-			<CodeA NearestAirport="Denver International"/>
 			<Number>1000</Number>
 			<Street>US Hwy 36</Street>
 			<City>Estes Park</City>
 			<State>CO</State>
 			<Zip>80517</Zip>
+			<CodeA NearestAirport="Denver International"/>
 		</Address>
+		<CodeR Rating="4.7"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.9"/>
 		<Name>Great Smoky Mountains</Name>
 		<Phone>865-436-1200</Phone>
 		<Address>
-			<CodeA NearestAirport="McGhee Tyson"/>
 			<Number>107</Number>
 			<Street>Park Headquarters Rd</Street>
 			<City>Gatlinburg</City>
 			<State>TN</State>
 			<Zip>37738</Zip>
+			<CodeA NearestAirport="McGhee Tyson"/>
 		</Address>
+		<CodeR Rating="4.9"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.8"/>
 		<Name>Grand Teton</Name>
 		<Phone>307-739-3300</Phone>
 		<Address>
-			<CodeA NearestAirport="Jackson Hole"/>
 			<Number>103</Number>
 			<Street>Headquarters Loop</Street>
 			<City>Moose</City>
 			<State>WY</State>
 			<Zip>83012</Zip>
+			<CodeA NearestAirport="Jackson Hole"/>
 		</Address>
+		<CodeR Rating="4.8"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.8"/>
 		<Name>Glacier</Name>
 		<Phone>406-888-7800</Phone>
 		<Address>
-			<CodeA NearestAirport="Glacier Park International"/>
 			<Number>64</Number>
 			<Street>Grinnell Drive</Street>
 			<City>West Glacier</City>
 			<State>MT</State>
 			<Zip>59936</Zip>
+			<CodeA NearestAirport="Glacier Park International"/>
 		</Address>
+		<CodeR Rating="4.8"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.7"/>
 		<Name>Arcadia</Name>
 		<Phone>207-288-3338</Phone>
 		<Address>
-			<CodeA NearestAirport="Hancock County-Bar Harbor"/>
 			<Number>20</Number>
 			<Street>E McFarland Blvd</Street>
 			<City>Bar Harbor</City>
 			<State>ME</State>
 			<Zip>04609</Zip>
+			<CodeA NearestAirport="Hancock County-Bar Harbor"/>
 		</Address>
+		<CodeR Rating="4.7"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.6"/>
 		<Name>Everglades</Name>
 		<Phone>305-242-7700</Phone>
 		<Address>
-			<CodeA NearestAirport="Miami International"/>
 			<Number>40001</Number>
 			<Street>State Road 9336</Street>
 			<City>Homestead</City>
 			<State>FL</State>
 			<Zip>33034</Zip>
+			<CodeA NearestAirport="Miami International"/>
 		</Address>
+		<CodeR Rating="4.6"/>
 	</NationalPark>
 	<NationalPark>
-		<CodeR Rating="4.8"/>
 		<Name>Arches and Canyonlands</Name>
 		<Phone>435-719-2299</Phone>
 		<Address>
-			<CodeA NearestAirport="Canyonlands Regional"/>
 			<Number>2282</Number>
 			<Street>SW Resource Blvd</Street>
 			<City>Moab</City>
 			<State>UT</State>
 			<Zip>84532</Zip>
+			<CodeA NearestAirport="Canyonlands Regional"/>
 		</Address>
+		<CodeR Rating="4.8"/>
 	</NationalPark>
 </NationalParks>
