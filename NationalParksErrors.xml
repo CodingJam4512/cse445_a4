@@ -1,4 +1,4 @@
-<NationalPark xmlns="http://venus.sod.asu.edu/WSRepository/xml NationalParks.xsd" xmlns:bs ="http://venus.sod.asu.edu/WSRepository/xml/bookstore.xsd">
+<NationalPark xmlns="https://codingjam4512.github.io/cse445_a4/NationalParks.xsd">
 	<NationalPark>
 		<CodeR Rating="4.9"/>
 		<Name>Grand Canyon</Name>
@@ -104,7 +104,7 @@
 			<City>West Glacier</City>
 			<State>MT</State>
 			<Zip>59936</Zip>
-		
+	
 	</NationalPark>
 	<NationalPark>
 		<CodeR Rating="4.7"/>
