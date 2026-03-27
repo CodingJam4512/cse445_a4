@@ -14,7 +14,7 @@
 				<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
 				<xs:element name="Address" minOccurs="1" maxOccurs="1"/>
 			</xs:sequence>
-			<xs:attribute name="CodeR" type="CodeType" use="optional"/>
+			<xs:attribute name="CodeR" type="xs:string" use="optional"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="Address">
