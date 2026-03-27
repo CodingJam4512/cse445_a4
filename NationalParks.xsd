@@ -14,7 +14,7 @@
 				<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
 				<xs:element name="Address" minOccurs="1" maxOccurs="1"/>
 			</xs:sequence>
-			<xs:attribute name="CodeR" type="CodeType" use="optional" minOccurs="0" maxOccurs="1"/>
+			<xs:attribute name="CodeR" type="CodeType" use="optional"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="Address">
@@ -26,7 +26,7 @@
 				<xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1"/>
 				<xs:element name="Zip" type="xs:string" minOccurs="1" maxOccurs="1"/>
 			</xs:sequence>
-			<xs:attribute name="CodeA" type="xs:string" use="required" minOccurs="1" maxOccurs="1"/>
+			<xs:attribute name="CodeA" type="xs:string" use="required"/>
 		</xs:complexType>
 	</xs:element>
 </xs:schema>
